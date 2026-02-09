@@ -1,0 +1,83 @@
+# JavaScript API Dashboard
+
+A sleek, interactive dashboard that allows users to fetch and view data from multiple public APIs in real-time. Built using **HTML**, **CSS**, and **JavaScript**, this project showcases modern web design with a responsive grid layout and dynamic API interactions.
+
+---
+
+## Features
+
+- **Random Dog Images 🐶** – Fetch a new dog image from the Dog CEO API.
+- **Random Cat Images 🐱** – Fetch a random cat image from The Cat API.
+- **Weather Information ☀️** – Displays current weather data for New York (temperature & wind speed) using the Open-Meteo API.
+- **Currency Rates 💱** – Shows current USD → EUR exchange rates.
+- **Trending Movies 🎮** – Fetches the top 5 trending movies from TMDB (requires your TMDB API key).
+- **GitHub User Info 🧑‍💻** – Search for GitHub users and view their avatar, username, and public repositories.
+- **Random Jokes 🤣** – Get a random joke from JokeAPI.
+- **Public APIs 📚** – Display information about a public API from the Public APIs directory.
+
+---
+
+## Demo
+
+The dashboard uses a responsive **grid layout** to display API cards. Each card has a button to fetch data and an output area to display results dynamically.
+
+---
+
+## Installation
+
+1. **Clone the repository**
+
+2. Open index.html in your browser.
+
+No backend or server setup is required; all APIs are fetched directly from the client-side JavaScript.
+
+### Usage
+
+Click any button on the dashboard to fetch data from the respective API.
+
+For GitHub users, you will be prompted to enter a username.
+
+For trending movies, replace "YOUR_TMDB_API_KEY" in script.js with your TMDB API key.
+
+## Technologies Used
+
+HTML
+
+CSS3 
+
+JavaScript (ES6+) – Fetch API, async/await, and DOM manipulation.
+
+Project Structure
+---
+api-dashboard/
+│
+├── index.html         # Main HTML file
+├── styles.css         # CSS styles for layout and design
+└── script.js          # JavaScript for API interactions
+
+### APIs Used:
+---
+
+API	Purpose
+* Dog CEO API - 	Fetch random dog images
+* The Cat API - 	Fetch random cat images
+* Open-Meteo - 	Get current weather data
+* ApyHub Currency API - 	Fetch currency exchange rates
+* TMDB API - 	Fetch trending movies
+* GitHub API - Fetch GitHub user info
+* JokeAPI - 	Fetch random jokes
+* Public APIs - 	Fetch info about public APIs
+
+---
+## Installation
+--
+
+* Make sure you have an active internet connection as the dashboard relies on external APIs.
+
+Some APIs, like TMDB, require an API key.
+
+All API calls are handled using async/await and proper error handling.
+
+## License
+
+This project is open source and available under the MIT License.
